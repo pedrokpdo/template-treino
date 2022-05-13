@@ -36,7 +36,6 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 75px;
-  background-color: red;
 }
 
 .navBarItens {
@@ -63,18 +62,34 @@ a {
 } 
 
 /* Page1 */
-
 .page1-contentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.page1-container1,
+.page1-container2 {
 
 }
+
+.page1-container1 h1,
+.page1-container2 h1 {
+  padding: 30px 30px 0 30px;
+}
+.page1-container1 p,
+.page1-container2 p {
+  padding: 0 30px 0 30px;
+  width: auto;
+}
+
 
 /* content1, content2 */
 
-.page1-content1 {
+.page1-container1 {
   background-color: yellow;
   height: 300px;
 }
-.page1-content2 {
+.page1-container2 {
     background-color: wheat;
     height: 300px;
 }
@@ -110,4 +125,16 @@ a {
   height: 100vh;
   width: 100%;
   background-color: red;
+}
+
+/* page4 */
+
+.page4-container1 {
+  height: 50vh;
+  background-color: rgb(131, 156, 170);
+}
+
+.page4-container2 {
+  height: 50vh;
+  background-color: rgb(14, 211, 211);
 }
