@@ -52,10 +52,12 @@ a {
 /* Content1, Content2 */
 
 .Content1Container {
-  height: 500px;
+  height: 100vh;
   background-color: yellow;
+  padding: 30px;
 }
 .Content2Container {
-  height: 500px;
+  height: 100vh;
   background-color: pink;
+  padding: 30px;
 } 
