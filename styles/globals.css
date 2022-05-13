@@ -1,3 +1,5 @@
+/* Maim CSS HomePage*/
+
 html,
 body {
   padding: 0;
@@ -14,3 +16,46 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.mainContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.ContentContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+
+
+/* NavBar Css */ 
+
+.navBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: red;
+}
+
+.navBarItens {
+  display: flex;
+  width: 400px;
+ justify-content: space-around;
+}
+
+.navBarLogo {
+  margin-left: 30px;
+}
+
+/* Content1, Content2 */
+
+.Content1Container {
+  height: 500px;
+  background-color: yellow;
+}
+.Content2Container {
+  height: 500px;
+  background-color: pink;
+} 
