@@ -61,3 +61,45 @@ a {
   background-color: pink;
   padding: 30px;
 } 
+
+/* Page1 */
+
+.page1-contentContainer {
+
+}
+
+/* content1, content2 */
+
+.page1-content1 {
+  background-color: yellow;
+  height: 300px;
+}
+.page1-content2 {
+    background-color: wheat;
+    height: 300px;
+}
+
+.page2-contentContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 50%
+}
+
+/* page2Container's */
+
+.page2-container1 {
+  background-color: blue;
+}
+
+.page2-container2 {
+  background-color: yellow;
+}
+
+.page2-container3 {
+  background-color: yellowgreen;
+}
+
+.page2-container4 {
+  background-color: green;
+}
